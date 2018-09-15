@@ -1,0 +1,182 @@
+@import 'reset';
+@import 'header';
+@import 'foot_ul';
+@import 'foot_foot';
+@import 'foot_footer';
+@import 'xiangqing_nav';
+
+.main{overflow: hidden;margin:auto;width:1200px;position: relative;}
+.search-list{overflow: hidden;width: 1200px;margin: 15px auto;}
+.search-list .f1{width: 957px;float: left;overflow: hidden;}
+.search-list .f1 h2{height: 32px;line-height: 32px;}
+.search-list .f1 h2 a{font-size: 14px;color: #333333;}
+.term{margin-bottom: 19px;border: 1px solid #E5E5E5;overflow: hidden;}
+.term dl{overflow: hidden;line-height: 58px;position: relative;}
+.term dl.top{border-bottom: 1px dashed #E5E5E5;height: auto;}
+.term dl dt{width: 80px;background: #f1f1f1;font-size: 14px;font-weight: bold;color: #444;padding-left: 10px;float: left;height: 100%;}
+.term dl dd {
+    width: 840px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    height: 58px;
+    padding-left: 10px;
+}
+.term dl dd a {
+    display: block;
+    height: 22px;
+    margin: 18px 35px 18px 0;
+    overflow: hidden;
+    float: left;
+    line-height: 22px;
+    font-size: 12px;
+    color: #666;
+    padding: 0 6px;
+}
+
+.term dl span {
+    display: block;
+    padding-right: 16px;
+    //background: url(../img/more.png) no-repeat right -28px;
+    font-size: 12px;
+    color: #333;
+    cursor: pointer;
+    height: 16px;
+    line-height: 16px;
+    position: absolute;
+    right: 16px;
+    bottom: 20px;
+}
+
+.filter li.curr {
+    color: #dc0f50;
+    border-left: 1px solid #e5e5e5;
+    background: #fff;
+    border-right: 1px solid #e5e5e5;
+}
+
+.filter {
+    margin-bottom: 30px;
+    height: 45px;
+    border: 1px solid #e5e5e5;
+    background: #f1f1f1;
+}
+.filter li {
+    width: 88px;
+    float: left;
+    height: 46px;
+    overflow: hidden;
+    text-align: center;
+    line-height: 45px;
+    font-size: 12px;
+    color: #333;
+    cursor: pointer;
+}
+.filter li#on{width: 222px;padding-left: 21px;}
+.filter li#on input {
+    width: 32px;
+    padding: 0 10px;
+    float: left;
+    text-align: left;
+    margin-top: 11px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 12px;
+    color: #666;
+    border: 1px solid #d6d6d6;
+}
+.filter li#on span {
+    float: left;
+    padding: 0 10px;
+    //color: #14px;
+    color: #bdbdbd;
+}
+
+.filter li#on.curr a {
+    display: block;
+    width: 50px;
+    height: 24px;
+    line-height: 24px;
+    background: #dc0f50;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    float: left;
+    margin: 11px 0 0 15px;
+}
+.ac-list {
+    overflow: hidden;
+    padding: 0 25px;
+    width: 1150px;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    margin-bottom: 40px;
+}
+.search-list .f1 .ac-list{padding: 0 10px;width: 100%;margin-bottom: 0;height: 680px;}
+.ac-list li {
+    float: left;
+    width: 200px;
+    //height: 290px;
+    padding: 0 15px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.search-list .f1 .ac-list li{padding: 0 10px;width: 214px;}
+.ac-list li a {
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+.search-list .f1 .ac-list li a img{display: block;width: 214px;height: 214px;}
+.ac-list li  b {
+    padding: 5px 0;
+    overflow: hidden;
+    height: 40px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #333;
+    display: block;
+}
+.ac-list li  p{
+    height: 24px;
+    line-height: 24px;
+    font-size: 20px;
+    color: #e11f24;
+}
+.ac-list li  p i{
+    float: right;
+    font-size: 14px;
+    color: #999;
+    text-decoration: line-through;
+}
+.ac-list li font {
+    display: block;
+    font-size: 14px;
+    color: #666;
+}
+.ac-list li font span {
+    float: right;
+}
+.pag {
+    margin-bottom: 30px;
+    text-align: center;
+    overflow: hidden;
+}
+.pag span{display: inline;width: 74px;height: 36px;}
+.pag span a.curr, .pag span a:hover {
+    border: 1px solid #dc0f50;
+    color: #fff;
+    background: #dc0f50;
+}
+.pag span a {
+    display: inline-block;
+    padding: 0 15px;
+    height: 34px;
+    line-height: 34px;
+    border: 1px solid #e5e5e5;
+    background: #fafafa;
+    text-align: center;
+    margin-right: 5px;
+    font-size: 14px;
+    color: #666;
+}

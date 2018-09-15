@@ -1,0 +1,28 @@
+.payMethod{
+    overflow: hidden;
+    margin:20px auto 45px auto;
+    width: 1200px;  
+}
+.payMethod li{
+    height: 54px;
+    padding: 0 25px 0 82px;
+    float: left;
+    background: url(../images/warrant_icon.png) no-repeat 15px 0;
+}
+.payMethod li b{
+    display: block;
+    line-height: 22px;
+    padding-top: 5px;
+    font-size: 16px;
+    color: #333;
+}
+.payMethod li i{
+    display: block;
+    line-height: 18px;
+    font-size: 12px;
+    color: #999;
+}
+.payMethod li.l2{background-position: 15px -55px;}
+.payMethod li.l3{background-position: 15px -110px;}
+.payMethod li.l4{background-position: 15px -165px;}
+.payMethod li.l5{background-position: 15px -220px;}

@@ -1,0 +1,212 @@
+@import 'reset';
+@import 'header';
+@import 'foot_ul';
+@import 'foot_foot';
+@import 'foot_footer';
+@import  'xiangqing_nav';
+
+
+.main {
+    overflow: hidden;
+    margin: 0 auto;
+    width: 1200px;
+    position: relative;
+    
+}
+.trolley {
+    overflow: hidden;
+    width: 1140px;
+    margin: 0 auto;
+}
+.trolley h2 {
+    height: 55px;
+    line-height: 55px;
+    color: #333;
+    font-size: 12px;
+}
+.trolley h2 i {
+    display: block;
+    width: 35px;
+    height: 16px;
+    line-height: 16px;
+    font-size: 12px;
+    float: left;
+    background: url(../images/h2_bg.png) no-repeat;
+    padding-left: 5px;
+    color: #fff;
+    margin: 19px 8px 0 0;
+}
+
+.trolley table {
+    border: 1px solid #d6d6d6;
+}
+.trolley th {
+    border-bottom: 1px solid #d6d6d6;
+    height: 43px;
+    background: #f1f1f1;
+    font-weight: normal;
+    text-align: center;
+}
+.trolley th input {
+    margin-right: 12px;
+    position: relative;
+    top: 2px;
+}
+.trolley th span {
+    padding-right: 40px;
+}
+.trolley tr.curr td {
+    background: #fffceb;
+}
+.trolley tr.curr td {
+    background: #fffceb;
+}
+.trolley td a {
+    display: block;
+    height: 83px;
+    position: relative;
+    overflow: hidden;
+}
+.trolley td a img {
+    width: 83px;
+    height: 83px;
+    float: left;
+    margin-right: 10px;
+}
+.trolley td a p {
+    float: left;
+    width: 300px;
+    margin-right: 50px;
+    text-align: left;
+}
+.trolley td a p font {
+    display: block;
+    height: 24px;
+    overflow: hidden;
+}
+.trolley td a p b {
+    height: 30px;
+    line-height: 15px;
+    overflow: hidden;
+    display: block;
+    color: #333;
+    font-size: 12px;
+}
+.trolley td a strong {
+    float: left;
+    font-weight: normal;
+    padding-top: 24px;
+    width: 135px;
+    display: block;
+    line-height: 15px;
+    color: #999;
+    text-align: left;
+}
+.trolley td span {
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+}
+.trolley td label {
+    background: #fff;
+    display: inline-block;
+    width: 85px;
+    height: 24px;
+    border: 1px solid #cbcbcb;
+    overflow: hidden;
+}
+.trolley td label i {
+    display: inline-block;
+    width: 27px;
+    height: 24px;
+    line-height: 22px;
+    float: left;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    cursor: pointer;
+}
+.trolley td label input {
+    width: 28px;
+    float: left;
+    border-left: 1px solid #eaeaea;
+    text-align: center;
+    height: 24px;
+    line-height: 24px;
+    border-right: 1px solid #eaeaea;
+}
+.trolley td span.s2 {
+    color: #e92d2f;
+    font-weight: normal;
+    font-size: 12px;
+}
+.trolley td span.s1 {
+    color: #dc0f50;
+}
+.trolley td a.del {
+    display: inline;
+    font-size: 12px;
+    color: #333;
+}
+
+
+
+
+.trolley .ft {
+    width: 1140px;
+    background: #FFF;
+    margin-bottom: 20px;
+    line-height: 52px;
+    height: 52px;
+    padding: 23px 0 23px 0px;
+    overflow: hidden;
+}
+.trolley .ft .ft_nei {
+    width: 1140px;
+    margin: 0 auto;
+}
+.trolley .ft span {
+    color: #999;
+    font-size: 18px;
+    float: right;
+    line-height: 68px;
+}
+.trolley .ft span i {
+    color: #dc0f50;
+}
+.trolley .ft span font {
+    padding-right: 15px;
+    padding-left: 5px;
+}
+.trolley .ft span font b {
+    font-size: 30px;
+    color: #dc0f50;
+    font-weight: bold;
+}
+.trolley .ft span a {
+    display: inline-block;
+    width: 120px;
+    height: 52px;
+    line-height: 52px;
+    background: #dc0f50;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    position: relative;
+    top: -14px;
+}
+.trolley .ft label {
+    display: block;
+    width: 75px;
+    float: left;
+    font-size: 14px;
+    color: #333;
+}
+.trolley .ft label input {
+    float: left;
+    margin: 20px 12px 0 0;
+}
+.trolley .ft a {
+    font-size: 14px;
+    color: #333;
+}

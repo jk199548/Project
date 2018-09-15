@@ -1,0 +1,162 @@
+@import 'reset';
+@import 'header';
+@import 'foot_ul';
+@import 'foot_foot';
+@import 'foot_footer';
+
+
+//下面就写登录页面中间的样式
+.login {
+    padding: 60px 70px 30px 70px;
+    overflow: hidden;
+    width: 1060px;
+    margin: 0 auto;
+}
+.login .f1 {
+    float: left;
+    width: 448px;
+    height: 336px;
+    padding: 40px 0 0 0;
+    overflow: hidden;
+    //margin-bottom: 75px;
+}
+.login .fr{
+    float: right;
+    width: 448px;    
+    //overflow: hidden;   
+    height: 376px;    
+    margin-bottom: 75px;
+}
+.login .fr .hd{
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+}
+.login .fr .hd a{
+    display: block;
+    width: 50%;    
+    text-align: center;    
+    float: left;   
+    cursor: pointer;   
+    font-size: 18px;   
+    color: #666;
+}
+.login .fr .hd .curr i {
+    color: #dc0f50;
+    border-bottom: 2px solid #dc0f50;
+}
+
+.login .fr .bd {
+
+    margin-top: -1px;
+    overflow: hidden;
+    height: 290px;
+    border: 1px solid #e5e5e5;
+    padding: 45px 0 0 70px;
+
+}
+.login .fr #user ul{margin-top: 36px;}
+.login .fr .bd ul li {
+    overflow: hidden;
+    height: 40px;
+    margin-bottom: 19px;
+    position: relative;
+}
+.login .fr .bd ul li i {
+    display: block;
+    width: 18px;
+    height: 18px;
+    background: url(../images/icon01.png) no-repeat;
+    position: absolute;
+    left: 11px;
+    top: 11px;
+}
+.login .fr .bd ul li input {
+    margin-right: 16px;
+    float: left;
+    height: 28px;
+    line-height: 28px;
+    padding: 5px 0 5px 60px;
+    width: 243px;
+    border: 1px solid #d6d6d6;
+    font-size: 14px;
+    color: #666;
+}
+.login .fr .bd ul li em{
+    width: 70px;
+    float: right;
+    top: 0;
+    left: 313px;
+    position: absolute;
+    color: red;
+    display: none;
+}
+.login .fr .bd ul li i.i2 {
+    width: 14px;
+    background: url(../images/icon02.png) no-repeat;
+    left: 13px;
+}
+
+.login .fr .bd ul li.curr {
+    font-size: 14px;
+    color: #666;
+    margin-top: -14px;
+}
+.login .fr .bd ul li span {
+
+    float: right;
+    padding-right: 70px;
+
+}
+.login .fr .bd ul li span a, .login .fr .bd ul li label {
+    color: #666;
+    font-size: 14px;
+}
+.login .fr .bd ul li label input {
+    width: 13px;
+    height: 13px;
+    border: none;
+    float: left;
+    margin-top: 5px;
+    margin-right: 5px;
+    padding: 0;
+}
+.login .fr .bd p{
+    height: 40px;
+    line-height: 40px;
+    padding-right: 70px;
+}
+.login .fr .bd p a, .register .fl p a {
+    display: block;
+    background: #dc0f50;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+}
+/*快捷登录样式*/
+
+.login .fr .bd{height: 290px;margin-top: -1px;border: 1px solid #E5E5E5;padding: 45px 0 0 70px;display: none;}
+.login .fr .bd{padding-top: 9px;height: 326px;}
+.login .fr .bd font {
+    display: block;
+    height: 40px;
+    line-height: 38px;
+    padding: 0 32px;
+    background: url(../images/error_bg.png) no-repeat 9px 50%;
+    color: #e92d2f;
+    font-size: 12px;
+}
+.login .fr .bd  .f1{background: url(../images/ling.png) no-repeat 9px 50%;color: #DC0F50;} 
+.login .fr .bd #quick strong{line-height: 21px;font-size: 12px;color: #999999;height: 21px;display: block;font-weight: normal;}
+.login .fr .bd ul li{height: 40px;margin-bottom: 19px;position: relative;overflow: hidden;}
+.login .fr .bd ul li i{display: block;width: 18px;height: 18px;position: absolute;left: 11px;top: 11px;background: url(/images/icon01.png) no-repeat;}
+.login .fr .bd ul li.curr{font-size: 14px;margin-top: -14px;}
+.login .fr .bd ul li input{padding-left: 40px;width: 263px;margin-right: 16px;float: left;height: 28px;line-height: 28px;padding: 5px 0 5px 60px;border: 1px solid #D6D6D6;font-size: 14px;color: #666;}
+.login .fr .bd ul li button{width: 90px;height: 40px;background: #DC0F50;border: none;font-size: 14px;color: #FFFFFF;position: absolute;right: 70px;top: 0;line-height: 40px;cursor: pointer;}
+.login .fr .bd ul li i.i2{width: 14px;background: url(/images/icon02.png) no-repeat;left: 13px;}
+.login .fr .bd ul li span{float: right;padding-right: 70px;}
+.login .fr .bd ul li label{font-size: 14px;color: #666666}
+.login .fr .bd ul li a{padding-left: 10px;color: #666;font-size: 14px;}
+.login .fr .bd ul li label input{width: 13px;height: 13px;border: none;float: left;margin-top: 5px;margin-right: 5px;padding: 0;line-height: 28px;font-size: 14px;color: #666;}
+.login .fr .bd p{height: 40px;line-height: 40px;padding-right: 70px;}
+.login .fr .bd p a{display: block;background: #DC0F50;text-align: center;font-size: 18px;color: #FFFFFF;}

@@ -1,0 +1,70 @@
+/*底部样式*/
+.foot .cont{
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+.foot .cont .foot_dl{
+    width: 860px;
+    padding-left: 78px;
+    float: left;
+    overflow: hidden;  
+}
+.foot .cont .foot_dl dl{
+    width: 20%;
+    float: left;
+    overflow: hidden;
+}
+.foot .cont .foot_dl dl dt{
+    color: #666666;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 30px;
+}
+.foot .cont .foot_dl dl dt a{color: #666666;}
+.foot .cont .foot_dl dl dt a:hover{color: #DC0F50;}
+.foot .cont .foot_dl dl dd{
+    font-size: 12px;
+    color: #999999;
+    line-height: 20px;
+}
+.foot .cont .foot_dl dl dd a{color: #999999;}
+.foot .cont .foot_dl dl dd a:hover{color: #DC0F50;}
+.foot .cont .erweima{
+    float: left;
+    width: 210px;
+    padding-right: 50px;
+}
+.foot .cont .erweima ul{margin-bottom: 10px;overflow: hidden;}
+.foot .cont .erweima ul li{
+    width: 79px;
+    float: left;
+    line-height: 25px;
+    text-align: center;
+    font-size: 12px;
+    color: #666666;
+    font-weight: bold;
+    margin-right: 26px;
+}
+.foot .cont .erweima ul li img{width: 100%;}
+.foot .cont .erweima p{
+    padding-left: 35px;
+    background: url(../images/mobile1.png) no-repeat;
+    overflow: hidden;
+}
+.foot .cont .erweima p b{
+    line-height: 26px;
+    display: block;
+    font-size: 20px;
+    color: #666666;
+    font-weight: bold;
+}
+.foot .cont .erweima p i{
+    display: block;
+    font-size: 12px;
+    color: #999;
+    line-height: 14px;
+    margin-top: -3px;
+    font-style: normal;
+}

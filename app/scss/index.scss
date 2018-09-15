@@ -1,0 +1,316 @@
+@import 'reset';
+/* 头部公用 */
+@import 'header';
+/* 尾部公用 */
+@import 'foot_ul';
+@import 'foot_foot';
+@import 'foot_footer';
+
+
+
+/*导航栏的样式*/
+.nav{
+    width: 1200px;
+    margin: 0 auto;
+    height: 40px;
+    position: relative;
+    z-index: 10;
+}
+.nav b{
+    display: block;
+    width: 193px;
+    cursor: pointer;
+    border-bottom: 2px solid #dc0f50;
+    margin-right: 30px;
+    height: 40px;
+    overflow: hidden;
+    line-height: 40px;
+    float: left;
+    background: #333;
+    color: #fff;
+    padding: 0 20px;
+}
+.nav .pop{
+    width: 231px;
+    border: 1px solid #e5e5e5;
+    border-top: none;
+    overflow: hidden;
+    position: absolute;
+    height: 560px;
+    left: 0;
+    top: 40px;
+    margin-top: 2px;
+    background: #fff;
+    z-index: 10;
+}
+.nav .pop a{
+    display: block;
+    padding: 0 20px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #333;
+}
+.nav .pop a:hover{
+    color: #FFFFFF;
+    background: #dc0f50;
+}
+.nav ul{
+    overflow: hidden;
+    float: left;
+    width: 900px;
+    height: 40px;
+}
+/*横向导航栏的样式*/
+.nav  ul  li{
+    overflow: hidden;
+    padding: 0 16px 0 24px;
+    line-height: 40px;
+    height: 40px;
+    float: left;
+}
+.nav ul li a{color: #333;font-size: 18px;}
+.nav ul li:hover a{color: #dc0f50;}
+.nav ul li:nth-child(1) a{color: #dc0f50;}
+
+/*中间主体大框*/
+
+.mainContent{
+    overflow: hidden;
+    margin: 0 auto;
+    width: 1200px;
+    position: relative;
+    z-index: 0;
+    }
+.main{
+    overflow: hidden;
+    margin: 0 auto;
+    width: 1200px;
+    position: relative;
+}
+/*轮播图div及样式*/
+.rect{
+    overflow: hidden;
+    padding: 0 0 0 243px;
+    width: 957px;
+    height: 561px;
+    margin-bottom: 40px;
+}
+.rect .f1{
+    width: 714px;
+    overflow: hidden;
+    height: 561px;
+    float: left;
+}
+
+
+
+
+
+#lunbo {width:714px; height:382px; margin:50px auto; overflow:hidden; position:relative;}
+#lunbo ul {position:absolute;left: 0;top: 0;}
+#lunbo ul li{height:382px;float: left;}
+#lunbo ol {position:absolute;right: 10%;bottom: 10px;z-index:6}
+#lunbo ol li{cursor:pointer;border-radius:8px;width: 20px;height: 20px;background: #fff;margin-left: 5px;float: left;line-height: 20px;text-align: center;}
+#lunbo ol li.ac{background:red;color: #fff;}
+#lunbo>a{text-decoration: none;position: absolute;top: 50%;margin-top: -10px;height: 50px;line-height: 32px;text-align: center;width: 30px;font-size: 40px;vertical-align: middle;color: #fff;background: rgba(0,0,0,0.5);z-index:6;}
+#goPrev{left: 0;opacity:.5;}
+#goNext{right: 0;opacity:.5;}
+#lunbo #goPrev:hover{left: 0;opacity:1;}
+#lunbo #goNext:hover{right: 0;opacity:1;}
+#lunbo ul li img{width:714px; height:382px;}
+
+
+
+
+
+
+
+/*轮播图右侧box的样式*/
+.rect .lunbo_right_bigbox{
+    width: 232px;
+    overflow: hidden;
+    padding-top: 10px;
+    float: right;
+}
+.lunbo_right_bigbox_top{
+    border: 1px solid #E5E5E5;
+    margin-bottom: 14px;
+}
+.rect .lunbo_right_bigbox .personal{
+    margin: 0 0;
+    margin-bottom: 10px;
+    width: 232px;
+    height: 172px;
+    overflow: hidden;
+    padding-bottom: 0;
+    border-bottom: none;
+    border-top: none;
+}
+.rect .lunbo_right_bigbox .personal .no .hd{
+    padding-top: 20px;
+    height: 78px;
+    text-align: center;
+}
+.rect .lunbo_right_bigbox .personal .no i{
+    display: block;
+    line-height: 24px;
+    font-size: 12px;
+    color: #333;
+}
+.rect .lunbo_right_bigbox .personal .no a.dl{
+    display: block;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    background: #dc0f50;
+    color: #fff;
+    font-size: 16px;
+    margin: 0 auto;
+}
+.rect .lunbo_right_bigbox .personal .no p{
+    padding: 0 15px;
+    text-align: right;
+}
+.rect .lunbo_right_bigbox .personal .no p a{
+    color: #333;
+    font-size: 12px;
+    line-height: 31px;
+}
+.rect .lunbo_right_bigbox .phonenum{
+    overflow: hidden;
+    height: 141px;
+    border-top: 1px solid #E5E5E5;
+}
+.rect .lunbo_right_bigbox .phonenum .num{
+    padding: 18px 0 18px 50px;
+    overflow: hidden;
+    height: 30px;
+    line-height: 30px;
+    font-size: 23px;
+    color: #666;
+    font-weight: bold;
+    background: url(../images/mobile1.png) no-repeat 10px center;
+}
+.rect .lunbo_right_bigbox .phonenum ul{
+    padding: 0 10px;
+    overflow: hidden;
+}
+.rect .lunbo_right_bigbox .phonenum ul li{
+    width: 25%;
+    float: left;
+    overflow: hidden;
+}
+.rect .lunbo_right_bigbox .phonenum ul li a{
+    display: block;
+    line-height: 15px;
+    color: #333;
+    text-align: center;
+    font-size: 12px;
+}
+.rect .lunbo_right_bigbox .phonenum ul li a i{
+    display: block;
+    width: 26px;
+    height: 20px;
+    background: url(../images/icon_2.png) no-repeat;
+    margin: 2px auto;
+    margin-bottom: 2px;
+    margin-bottom: 5px;
+}
+.rect .lunbo_right_bigbox .phonenum ul li a .i2{
+    background-position: 0px -20px;
+}
+.rect .lunbo_right_bigbox .phonenum ul li a .i3{
+    background-position: 0px -40px;
+}
+.rect .lunbo_right_bigbox .phonenum ul li a .i4{
+    background-position: 0px -60px;
+}
+.rect .lunbo_right_bigbox .phonenum ul li a:hover .i1{background-position: -28px 0;}
+.rect .lunbo_right_bigbox .phonenum ul li a:hover .i2{background-position: -28px -20px;}
+.rect .lunbo_right_bigbox .phonenum ul li a:hover .i3{background-position: -28px -40px;}
+.rect .lunbo_right_bigbox .phonenum ul li a:hover .i4{background-position: -28px -60px;}
+
+
+
+.rect .lunbo_right_bigbox_bottom{overflow: hidden;}
+.rect .lunbo_right_bigbox_bottom h2{height: 37px;line-height: 16px;overflow: hidden;padding: 10px 0;color: #dc0f50;font-size: 16px;border-top: 2px solid #dc0f50;text-align: center;}
+.rect .lunbo_right_bigbox_bottom h2 span{display: block;font-size: 12px;line-height: 24px;}
+
+.rect .lunbo_right_bigbox_bottom ul{height: 152px;overflow: hidden;margin-left: -3px;}
+.rect .lunbo_right_bigbox_bottom ul li{width: 113px;overflow: hidden;float: left;margin-right: 3px;}
+.rect .lunbo_right_bigbox_bottom ul li a{display: block;}
+.rect .lunbo_right_bigbox_bottom ul li img{width: 113px;height: 113px;display: block;margin: 0 auto;}
+.rect .lunbo_right_bigbox_bottom ul li a i{display: block;margin-top: 10px;background: #DC0F50;height: 28px;line-height: 28px;text-align: center;font-size: 12px;color: #FFFFFF;}
+.rect .lunbo_right_bigbox_bottom ul li:hover{opacity: .9;}
+
+
+
+.list .hd{height: 32px;overflow: hidden;margin-bottom: 30px;}
+.list .hd h2 #time{font-size: 17px;margin-left: 5px;}
+.list .hd h2 #time i{background: #000;color: #FFFFFF;width:30px;display: inline-block;text-align: center;}
+
+.list .bd .list3{height: 298px;width: 1000%;overflow: hidden;}
+.list .bd .list3 li{width: 200px;overflow: hidden;float: left;}
+.list .bd .list3 li a{position: relative;display: block;width: 200px;overflow: hidden;}
+.list .bd .list3 li img{width: 200px;height: 200px;display: block;overflow: hidden;}
+
+
+.list .bd .list3 li a span {
+    width: 60px;
+    height: 26px;
+    line-height: 26px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    background: #dc6c8f;
+    position: absolute;
+    right: 0;
+    top: 174px;
+    -moz-opacity: 1;
+    opacity: 1;
+    margin: 0;
+}
+.list .bd .list3 li a b{padding-right: 62px;display: block;padding: 5px 0;line-height: 21px;height: 40px;overflow: hidden;font-size: 14px;color: #333333;}
+.list .bd .list3 li a font{padding-right: 62px;display: block;line-height: 24px;color: #DC0F50;font-size: 20px;}
+.list .bd .list3 li a font i{padding: 0 8px;font-size: 12px;color: #999999;text-decoration: line-through;}
+.list .bd .list3 li a strong{width: 51px;height: 51px;padding: 4px;background: #ea2e2f;overflow: hidden;position: absolute;right: 0;top:210px;font-size: 20px;color: #FFFFFF;line-height: 25px;text-align: center;font-weight: normal;}
+
+
+.floor{overflow: hidden;margin-bottom: 40px;}
+.floor .f1{width: 890px;overflow: hidden;float: left;height: 556px;}
+.floor .f1 .hd{margin-bottom: 20px;}
+.floor .f1 .hd h2{font-weight: normal;}
+.floor .f1 .bd{overflow: hidden;}
+.floor .f1 .bd .left{width: 300px;float: left;}
+.floor .f1 .bd .left b{display: block;height: 376px;margin-bottom: 30px;overflow: hidden;}
+.floor .f1 .bd .left b a img{width: 100%;}
+.floor .f1 .bd .left p{padding: 0 6px;height: 108px;overflow: hidden;}
+.floor .f1 .bd .left p a{display: block;width: 80px;border: 1px solid #E5E5E5;height: 28px;overflow: hidden;float: left;margin: 0 6px 15px 7px;}
+.floor .f1 .bd .left p a img{width: 100%;}
+.floor .f1 .bd .right .ad3{width: 190px;height: 190px;float: left;margin-right: 5px;overflow: hidden;}
+.floor .fl .bd .right .ad3 img{width: 190px;height: 190px;}
+.floor .fl .bd .right .ad4{float: right;width: 190px;height: 190px;overflow: hidden;}
+.floor .fr{float: right;width: 300px;overflow: hidden;height: 556px;}
+.fr .bd li{height: 80px;padding: 10px 0;border-bottom: 1px solid #E5E5E5;margin-top:-1px ;overflow: hidden;position: relative;padding-left: 97px;}
+.fr .bd li a{display: block;height: 80px;}
+.fr .bd li a i{display: block;width: 25px;height: 25px;line-height: 18px;padding-left: 5px;font-size: 12px;color: #FFFFFF;position: absolute;left: 0;top: 10px;z-index: 10;}
+.fr .bd li a b{display: block;height: 32px;line-height: 16px;overflow: hidden;font-size: 14px;color: #333333;margin-bottom: 22px;}
+.fr .bd li a  em{font-size: 20px;color: #DC0F50;line-height: 26px;}
+.fr .bd li a img{width: 80px;height: 80px;position: absolute;left: 0;top: 10px;}
+
+
+
+
+
+.guesslike .bd{overflow: hidden;height: 300px;position: relative;}
+.guesslike .bd ul{padding: 0 25px;height: 298px;width: 1000%;position: absolute;left: 0px;top: 0px;}
+.guesslike .bd ul li{width: 200px;margin: 0 22px 0 11px;float: left;overflow: hidden;}
+.guesslike .bd ul li a{position: relative;display: block;width: 200px;overflow: hidden;}
+.guesslike .bd ul li a .pic{width: 200;height: 200px;overflow: hidden;}
+.guesslike .bd ul li a img{width: 200px;height: 200px;display: block;overflow: hidden;}
+.guesslike .bd ul li a b{display: block;padding: 5px 0;line-height: 21px;height: 40px;overflow: hidden;font-size: 14px;color: #333;}
+.guesslike .bd ul li a font{display: block;line-height: 24px;color: #DC0F50;font-size: 20px;}
+.guesslike .bd ul li a font i{padding: 0 8px;font-size: 12px;color: #999999;text-decoration: line-through;}
+

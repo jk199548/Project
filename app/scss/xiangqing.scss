@@ -1,0 +1,268 @@
+@import 'reset';
+@import 'header';
+@import 'foot_ul';
+@import 'foot_foot';
+@import 'foot_footer';
+@import 'xiangqing_nav';
+
+.mainContent{overflow: hidden;margin: 0 auto;width: 1200px;position: relative;}
+.details{width: 1200px;margin: 0 auto;}
+.details h2{height: 40px;line-height: 40px;padding: 0 15px;}
+.details h2 a{color: #333333;font-size: 12px;}
+.details .show {
+    padding: 29px;
+    position: relative;
+    border: 1px solid #d6d6d6;
+    background: #fff;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.details .show .f1{width: 545px;float: left;overflow: hidden;height: 512px;}
+.details .show .f1 .small{width:72px;float: left;height: 464px;}
+.details .show .f1 .small ul li {
+    height: 64px;
+    padding: 5px 0;
+    cursor: pointer;
+}
+.details .show .f1 .small ul li:hover{border: 1px solid red;}
+.details .show .f1 .small ul li img{
+    width: 62px;
+    height: 62px;
+    border: 1px solid #fff;
+}
+
+.details .show .f1 .big{width: 460px;float: right;position: relative;}
+.details .show .f1 .big img {
+    display: block;
+    margin-bottom: 20px;
+    height: 460px;
+    width: 460px;
+}
+.details .show .fr{float: right;width: 550px;position: relative;}
+.details .show .fr h3 {
+    color: #333;
+    font-size: 20px;
+    height: 54px;
+    line-height: 30px;
+    padding: 7px 0;
+    border-bottom: 1px solid #d6d6d6;
+}
+.details .show .fr .bd {
+    padding: 5px 0;
+}
+.details .show .fr .bd p.price {
+    line-height: 35px;
+    position: relative;
+}
+.details .show .fr .bd p.price b {
+    color: #dc0f50;
+    font-size: 30px;
+    margin-right: 8px;
+}
+.details .show .fr .bd p.price font {
+    display: inline-block;
+    height: 16px;
+    line-height: 16px;
+    border: 1px solid #ef8e8f;
+    background: #fcebeb;
+    color: #dc0f50;
+    padding: 0 5px;
+    border-radius: 1px;
+    margin: 0 5px 0 0;
+    position: relative;
+    top: -5px;
+    font-size: 12px;
+}
+.details .show .fr .bd p.price em {
+    display: block;
+    color: #666;
+    line-height: 16px;
+    font-size: 18px;
+    text-decoration: line-through;
+}
+.details .show .fr .bd p.price .goShop {
+    position: absolute;
+    color: #c06;
+    font-size: 14px;
+    line-height: 14px;
+    top: 25px;
+    right: 27px;
+}
+.details .show .fr .bd p.num, .details .show .fr .bd p.shou {
+    height: 40px;
+    line-height: 40px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #666;
+}
+.details .show .fr .bd p.num b, .details .show .fr .bd p.shou b, .details .show .fr .bd p.gift b {
+    font-size: 12px;
+    color: #666;
+    display: block;
+    width: 50px;
+    float: left;
+}
+.details .show .fr .bd p.num span, .details .show .fr .bd p.shou span {
+    padding-left: 15px;
+}
+
+.details .show .fr .bd p.gift {
+    overflow: hidden;
+    margin: 8px 0 12px 0;
+    
+}
+.details .show .fr .bd p.gift span {
+    display: block;
+    overflow: hidden;
+    padding-left: 15px;
+    padding-top: 3px;
+}
+.details .show .fr .bd p.gift label {
+    padding-bottom: 0px;
+    display: block;
+    overflow: hidden;
+}
+.details .show .fr .bd p.gift i {
+    display: block;
+    
+    height: 16px;
+    line-height: 16px;
+    padding: 0 6px;
+    border-radius: 2px;
+    
+    float: left;
+    font-size: 12px;
+    color: #ef823f;
+    border: 1px solid #ef823f;
+}
+
+
+.fr .bd p.number {
+    line-height: 22px;
+    padding: 5px 0;
+    overflow: hidden;
+}
+.show .fr .bd p.number b {
+    display: block;
+    width: 62px;
+    line-height: 22px;
+    font-size: 12px;
+    color: #666;
+    float: left;
+}
+.details .show .fr .bd p.number label {
+    margin-right: 12px;
+    display: block;
+    width: 86px;
+    height: 20px;
+    float: left;
+    border: 1px solid #d6d5d3;
+}
+.details .show .fr .bd p.number label a {
+
+    display: block;
+    width: 15px;
+    height: 20px;
+    overflow: hidden;
+    float: left;
+    background: url(../images/jia_jian.png) no-repeat;
+    
+    text-indent: -999em;
+
+}
+.details .show .fr .bd p.number label  .jian{background-position: 0 0px;}
+.details .show .fr .bd p.number label  .jia{background-position: 0 -20px;}
+.details .show .fr .bd p.number label input {
+    width: 44px;
+    padding: 0 5px;
+    border-left: 1px solid #d6d5d3;
+    float: left;
+    text-align: center;
+    line-height: 20px;
+    height: 20px;
+    color: #666;
+    font-size: 12px;
+    border-right: 1px solid #d6d5d3;
+}
+.details .show .fr .bd p.number label a {
+    display: block;
+    width: 15px;
+    height: 20px;
+    overflow: hidden;
+    float: left;
+    background: url(../images/jia_jian.png) no-repeat;
+    background-position: 0 -20px;
+    text-indent: -999em;
+}
+
+
+.details .show .fr .bd .btn {
+    height: 38px;
+    overflow: hidden;
+}
+
+.details .show .fr .bd .btn a.a2 {
+    position: relative;
+    width: 132px;
+    margin-right: 8px;
+    padding-left: 28px;
+    text-align: center;
+    display: block;
+    height: 38px;
+    line-height: 38px;
+    overflow: hidden;
+    color: #FFFFFF;
+    font-size: 16px;
+    float: left;
+    background: #fea829 20px center;
+}
+.details .show .fr .bd .btn .a1 {
+     position: relative;
+    width: 132px;
+    margin-right: 8px;
+    padding-left: 28px;
+    text-align: center;
+    display: block;
+    height: 38px;
+    line-height: 38px;
+    overflow: hidden;
+    color: #FFFFFF;
+    font-size: 16px;
+    float: left;
+    background: #DC0F50 20px center;
+}
+
+.details .content{background: #FFFFFF;margin-bottom: 68px;}
+.details .content .hd{width: 320px;height:50px;border: 1px solid #E5E5E5;border-bottom: none;}
+.details .content .hd li.curr{
+    background: #fff;
+    border-bottom: 1px solid #fff;
+    color: #dc0f50;
+    border-top: 2px solid #dc0f50;
+    position: relative;
+    top: -1px;
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    width: 159px;
+    margin-left: -1px;
+}
+.details .content .hd li{
+    width: 160px;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    background: #f5f5f5;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    cursor: pointer;
+}
+.details .content .bd{padding-top: 2px;border: 1px solid #E5E5E5;}
+.details .content .img{overflow: hidden;padding: 25px 50px;}
+.details .content .img .tu{display: block;padding: 35px;overflow: hidden;}
+
+
+.details .content .table{padding: 40px;min-height: 440px;overflow: hidden;display: none;}
+.details .content .table ul li{font-size: 12px;color: #666666;line-height: 40px;}
+.details .content .table ul li b{width: 110px;display: block;float: left;}
+.details .content .table ul li span{display: block;width: 1000px;float: left;overflow: hidden;}
