@@ -1,0 +1,69 @@
+@charset "UTF-8";
+.nav {
+  width: 1200px;
+  margin: 0 auto;
+  height: 40px;
+  position: relative;
+  z-index: 10; }
+
+.nav b {
+  display: block;
+  width: 193px;
+  cursor: pointer;
+  border-bottom: 2px solid #dc0f50;
+  margin-right: 30px;
+  height: 40px;
+  overflow: hidden;
+  line-height: 40px;
+  float: left;
+  background: #333;
+  color: #fff;
+  padding: 0 20px; }
+
+.nav .pop {
+  width: 231px;
+  border: 1px solid #e5e5e5;
+  border-top: none;
+  overflow: hidden;
+  position: absolute;
+  height: 560px;
+  left: 0;
+  top: 40px;
+  margin-top: 2px;
+  background: #fff;
+  z-index: 10; }
+
+.nav .pop a {
+  display: block;
+  padding: 0 20px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  color: #333; }
+
+.nav .pop a:hover {
+  color: #FFFFFF;
+  background: #dc0f50; }
+
+.nav ul {
+  overflow: hidden;
+  float: left;
+  width: 900px;
+  height: 40px; }
+
+/*横向导航栏的样式*/
+.nav ul li {
+  overflow: hidden;
+  padding: 0 16px 0 24px;
+  line-height: 40px;
+  float: left; }
+
+.nav ul li a {
+  color: #333;
+  font-size: 18px; }
+
+.nav ul li a:hover {
+  color: #dc0f50; }
+
+.nav ul li:nth-child(1) a {
+  color: #dc0f50; }

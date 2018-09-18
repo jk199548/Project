@@ -1,0 +1,1 @@
+"use strict";define(function(){return function(){var s=!1;$(".details .content .hd").find("li").on("click",function(){$(this).addClass("curr").siblings().removeClass("curr"),s=s?($(".details .content .bd .img").css("display","block").siblings().css("display","none"),!1):($(".details .content .bd .img").css("display","none").siblings().css("display","block"),!0)})}});

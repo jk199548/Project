@@ -1,0 +1,70 @@
+html {
+  font-size: 100px; }
+
+body {
+  font: 14px/22px "microsoft yahei"; }
+
+html, body {
+  margin: 0 auto; }
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, pre, form, fieldset, input, textarea, blockquote, p, header, footer, nav, section, article, aside, video {
+  padding: 0px;
+  margin: 0px;
+  tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -ms-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+table, td, tr, th {
+  font-size: 12px; }
+
+table {
+  margin: 0px auto;
+  border-collapse: collapse; }
+
+img {
+  vertical-align: top;
+  border: 0px; }
+
+ol, ul {
+  list-style: none; }
+
+li {
+  list-style-type: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal; }
+
+address, caption, cite, code, dfn, em, i, b {
+  font-weight: normal;
+  font-style: normal; }
+
+a {
+  color: #0077dd;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer; }
+
+a:hover {
+  text-decoration: none; }
+
+img {
+  height: auto;
+  vertical-align: top; }
+
+input, textarea, select, button {
+  outline: none;
+  resize: none;
+  border: 0;
+  font-family: "microsoft yahei"; }
+
+.tl {
+  text-align: left; }
+
+.tr {
+  text-align: right; }
+
+.tc {
+  text-align: center; }
+
+.tb {
+  font-weight: bold; }

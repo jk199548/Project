@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>详情页</title>
+	
+	<link rel="stylesheet" type="text/css" href="/css/xiangqing.css">
+	<script src="/libs/require.js" data-main="/js/xq.js"></script>
+		
+	</script>
+	
+</head>
+<body>
+	<!--头部共有布局-->
+<div class="wrap">
+	<div class="wrap_top">
+		<p>
+			<a href="javascirpt:void(0)" class="f1">收藏</a>
+			<a href="../index.html" target="_self">首页</a>
+			<a href="login.html" class="pleaselogin">请登录</a>
+			<a href="register.html">免费注册</a>
+			<span>|</span>
+			<font id="fontShoppingCart">
+			购物车
+			 <a id="shoppingCartNum" href="html/shoppingCart.html">0</a>
+			件		
+			</font>
+			<a id="myJYH">我的家有</a>
+			<font id="fontDiscount">
+				可用优惠券
+				<a id="myFavourites" href="javascript:void(0)">0</a>			
+			</font>
+			<a href="javascript:void(0)">我的收藏</a>
+			<span>|</span>
+			<label class="phone">
+				<a>
+					手机版
+					<strong class="strong">
+						<img src="../images/ewm011.jpg">
+					</strong>
+				</a>
+			</label>
+			<label class="weixin">
+				<a>
+					微信版
+					<strong class="strong">
+						<img src="../images/ewm022.png">
+					</strong>
+				</a>
+			</label>
+
+		</p>
+	</div>
+	<div class="head">
+		<div class="top">
+			<h1>
+				<a href="index.html">
+					<img src="../images/logo1.png" alt="家有购物" title="家有购物">
+				</a>
+			</h1>
+			<div class="search">
+				<input id="txtSearch" value="" type="text">
+				<a id="btnSearch" class="s1">搜 索</a>
+				<p>
+					<a href="javascript:void(0)">防晒</a>
+					<a href="javascript:void(0)">京城</a>
+					<a href="javascript:void(0)">女装</a>
+					<a href="javascript:void(0)">康宁</a>
+					<a href="javascript:void(0)">智能</a>
+					<a href="javascript:void(0)">莫洛奇</a>
+					<a href="javascript:void(0)">男士</a>
+					<a href="javascript:void(0)">收纳</a>					
+				</p>
+			</div>
+			<div class="fr">
+				<a class="gou" href="html/shoppingCart.html"">
+					我的购物车
+					<i id="totalnum_top">0</i>
+				</a>
+			</div>
+		</div>
+		<div class="nav">
+			<b  id="nav1">
+				全部商品分类				
+			</b>
+			<ul>
+				<li>
+					<a href="index.html" target="_self" style="cursor: pointer;">首页</a>					
+				</li>
+				<li>
+					<a style="cursor: pointer;">TV直播</a>					
+				</li>
+				<li>
+					<a style="cursor: pointer;">品牌惠</a>					
+				</li>
+				<li>
+					<a style="cursor: pointer;">家有购物APP</a>					
+				</li>
+				<li>
+					<a style="cursor: pointer;">家有尊享</a>					
+				</li>
+				
+			</ul>
+		</div>
+		
+	</div>
+	<div class="mainContent">
+		<div class="details">
+			<h2>
+				<a style="cursor: pointer;">全部商品</a>
+				<span></span>
+			</h2>
+			
+			<div class="show">
+				<div class="f1">
+					<div class="small">
+						<div style="position: relative;height: 444px;overflow: hidden;">
+							<ul id="ulSlider" style="position: absolute;border: 1px solid #D6D5D3;">
+								<li>
+									<img src="/images/927606d8fcfe4415826390baad64717c.jpg">
+								</li>
+								<li>
+									<img src="/images/09e1e73980f74fc492f1efb23d059c59.jpg">
+								</li>
+								<li>
+									<img src="/images/864e0988b17a400aae71e43c25ccf938.jpg">
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="big">
+						<img src="/images/927606d8fcfe4415826390baad64717c.jpg">
+					</div>
+				</div>
+				<div class="fr">
+					<h3>博生全能平板拖把清洁套组</h3>
+					<div class="bd">
+						<p class="price">
+							<b>￥249.00</b>
+							<font>会员折扣价</font>
+							<em>￥447.00</em>
+							<a class="goShop" href="javasrcipt:void(0)">进入店铺</a>
+						</p>
+						<p class="num">
+							<b>商品编号</b>
+							<span>958090</span>
+						</p>
+						<p class="shou">
+							<b>月销</b>
+							<span>120件</span>
+						</p>
+						<p class="gift">
+							<b>促销</b>
+							<span>
+								<label>
+									<i>会员日折扣价</i>
+								</label>
+							</span>
+						</p>
+						<div class="dui">
+							<p class="number">
+								<b>购买数量</b>
+								<label>
+									<a class="jian">-</a>
+									<input value="1" type="text" id="buycount">
+									<a class="jia">+</a>
+								</label>
+							</p>
+							<div class="btn">
+								<a class="a2" style="cursor: pointer;" href="shoppingCart.html">加入购物车</a>
+								<a class="a1" style="cursor: pointer;">立即购买</a>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="content">
+				<ul id="nav" class="hd" style="width: 320px;">
+					<li class="curr">商品详情</li>
+					<li class="">规格参数</li>
+				</ul>
+				<div class="bd">
+					<div class="img">
+						<span class="tu">
+							<img src="/images/a474bc266bcc4b65bdfadbc830502df0.jpg" style="width: 100%;">
+						</span>
+					</div>
+					<div class="table">
+						<ul>
+							<li>
+								<b>【商品编码】</b>
+								<span>958090</span>
+							</li>
+							<li>
+								<b>【商品编码】</b>
+								<span>958090</span>
+							</li>
+							<li>
+								<b>【品牌】</b>
+								<span>博生</span>
+							</li>
+							<li>
+								<b>【商品组成】</b>
+								<span>主品：拖把桶*1个、拖把杆*1套、灰色清洁布*2块、使用说明书（附保修卡合格证）*1； 赠品：拖把杆*1套、灰色清洁布*1块 、白色强力清洁布*3块、一扫净（海绵扫把）*1套</span>
+							</li>
+							<li>
+								<b>【规格】</b>
+								<span>拖桶尺寸约（长宽高）30*23*38cm，净重约1.4kg； 拖把杆长约125cm，净重约0.5kg； 清洁布尺寸（长宽）约33*12cm； 一扫净（海绵扫把）长约93cm，净重约0.22kg</span>
+							</li>
+							<li>
+								<b>【材质】</b>
+								<span>拖桶：PP+ABS塑料； 拖把杆、一扫净：不锈钢+ABS塑料</span>
+							</li>
+							<li>
+								<b>【颜色】</b>
+								<span>棕黄色</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</div>
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<!--底部共有布局-->
+<ul class="payMethod">
+        <li class="l1">
+            <b>100%正品保证</b>
+            <i>质量有保障</i>
+        </li>
+        <li class="l2">
+            <b>在线支付 全场包邮</b>
+            <i>送货上门</i>
+        </li>
+        <li class="l3">
+            <b>支持银联刷卡付款</b>
+            <i>付款更安全</i>
+        </li>
+        <li class="l4">
+            <b>货到付款 开箱验货</b>
+            <i>满意才收货</i>
+        </li>
+        <li class="l5">
+            <b>7x24小时热人工服务</b>
+            <i>微笑无时无刻 4008-678-210</i>
+        </li>
+</ul>
+<div class="foot">
+        <div class="cont">
+            <div class="foot_dl">
+                <dl>
+                    <dt>
+                        <a>关于我们</a>
+                    </dt>
+                    <dd>
+                        <a>公司介绍</a>
+                    </dd>
+                    <dd>
+                        <a>招聘信息</a>
+                    </dd>
+                    <dd>
+                        <a>联系我们</a>
+                    </dd>
+                    <dd>
+                        <a>用户隐私条款</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <a>交易条款</a>
+                    </dt>
+                    <dd>
+                        <a>注册/购物流程</a>
+                    </dd>
+                    <dd>
+                        <a>退/换货</a>
+                    </dd>
+                    <dd>
+                        <a>积分说明</a>
+                    </dd>
+                    <dd>
+                        <a>发票指南</a>
+                    </dd>
+                    <dd>
+                        <a>会员制度说明</a>
+                    </dd>
+                </dl>
+            <dl>
+                    <dt>
+                        <a>配送服务</a>
+                    </dt>
+                    <dd>
+                        <a>配送区域</a>
+                    </dd>
+                    <dd>
+                        <a>配送时间</a>
+                    </dd>
+                    <dd>
+                        <a>验货与签收</a>
+                    </dd>                   
+            </dl>
+            <dl>
+                    <dt>
+                        <a>支付方式</a>
+                    </dt>
+                    <dd>
+                        <a>网上支付</a>
+                    </dd>
+                    <dd>
+                        <a>货到付款</a>
+                    </dd>                                   
+            </dl>
+            <dl>
+                    <dt>
+                        <a>合作专区</a>
+                    </dt>
+                    <dd>
+                        <a>成为供应商</a>
+                    </dd>
+                    <dd>
+                        <a>供应商系统</a>
+                    </dd>
+                    <dd>
+                        <a>合作伙伴</a>
+                    </dd>                   
+            </dl>               
+            </div>
+            
+            <div class="erweima">
+                <ul>
+                    <li>
+                        <img src="../images/ewm011.jpg" alt="家有购物微信">
+                        家有购物微信
+                    </li>
+                    <li>
+                        <img src="../images/ewm022.png" alt="家有购物APP">
+                        家有购物APP
+                    </li>
+                </ul>
+                <p>
+                    <b>4008-678-210</b>
+                    <i>客服 7x24小时 （全年无休）</i>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="cont">
+            <p>
+                友情链接：
+                <a href="http://www.sj001.com/" target="_blank">南京手机报</a>
+                <a href="http://www.e.cn/" target="_blank">竞拍</a>
+                <a href="http://www.aolaigo.com/" target="_blank">奥莱购</a>
+                <a href="http://wiki.smzdm.com/" target="_blank">商品百科</a>
+            </p>
+            <p>
+                Copyright   2008-2013  jyh.com
+                <a>家有购物集团有限公司北京分公司</a>
+                版权所有  京ICP备14011161号-5 增值电信业务经营许可证：黔B2-20120036
+            </p>
+        </div>
+    </div>
+</body>
+</html>

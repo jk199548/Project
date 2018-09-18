@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="/css/list.css"/>
+		<script src="/libs/require.js" data-main="/js/list.js">
+		
+	    </script>
+	</head>
+	<body>
+		
+<div class="wrap">
+	<div class="wrap_top">
+		<p>
+			<a href="javascirpt:void(0)" class="f1">收藏</a>
+			<a href="../index.html" target="_self">首页</a>
+			<a href="login.html" class="pleaselogin">请登录</a>
+			<a href="register.html">免费注册</a>
+			<span>|</span>
+			<font id="fontShoppingCart">
+			购物车
+			 <a id="shoppingCartNum" href="shoppingCart.html">0</a>
+			件		
+			</font>
+			<a id="myJYH">我的家有</a>
+			<font id="fontDiscount">
+				可用优惠券
+				<a id="myFavourites" href="javascript:void(0)">0</a>			
+			</font>
+			<a href="javascript:void(0)">我的收藏</a>
+			<span>|</span>
+			<label class="phone">
+				<a>
+					手机版
+					<strong class="strong">
+						<img src="../images/ewm011.jpg">
+					</strong>
+				</a>
+			</label>
+			<label class="weixin">
+				<a>
+					微信版
+					<strong class="strong">
+						<img src="../images/ewm022.png">
+					</strong>
+				</a>
+			</label>
+
+		</p>
+	</div>
+	<div class="head">
+		<div class="top">
+			<h1>
+				<a href="index.html">
+					<img src="/images/logo1.png" alt="家有购物" title="家有购物">
+				</a>
+			</h1>
+			<div class="search">
+				<input id="txtSearch" value="" type="text">
+				<a id="btnSearch" class="s1">搜 索</a>
+				<p>
+					<a href="javascript:void(0)">防晒</a>
+					<a href="javascript:void(0)">京城</a>
+					<a href="javascript:void(0)">女装</a>
+					<a href="javascript:void(0)">康宁</a>
+					<a href="javascript:void(0)">智能</a>
+					<a href="javascript:void(0)">莫洛奇</a>
+					<a href="javascript:void(0)">男士</a>
+					<a href="javascript:void(0)">收纳</a>					
+				</p>
+			</div>
+			<div class="fr">
+				<a class="gou" href="html/shoppingCart.html"">
+					我的购物车
+					<i id="totalnum_top">0</i>
+				</a>
+			</div>
+		</div>
+		
+		<div class="nav">
+			<b  id="nav1">
+				全部商品分类				
+			</b>
+			<ul>
+				<li>
+					<a href="../index.html" target="_self" style="cursor: pointer;">首页</a>					
+				</li>
+				<li>
+					<a style="cursor: pointer;">TV直播</a>					
+				</li>
+				<li>
+					<a style="cursor: pointer;">品牌惠</a>					
+				</li>
+				<li>
+					<a style="cursor: pointer;">家有购物APP</a>					
+				</li>
+				<li>
+					<a style="cursor: pointer;">家有尊享</a>					
+				</li>
+				
+			</ul>
+		</div>
+		
+	</div>
+	
+	<div class="main">
+		<div class="search-list">
+			<div class="f1">
+				<h2>
+					<a>全部商品</a>
+				</h2>
+				<div class="term">
+					<div class="hd">
+						<dl class="top">
+							<dt>分类</dt>
+							<dd style="height: 58px;">
+							<a>全部</a>
+							<a>家居家具</a>
+							<a>生活家居-电视热销</a>
+							<a>收纳</a>
+							<a>创意家具</a></dd>
+						</dl>
+						<dl style="height: 58px;">
+							<dt>品牌</dt>
+							
+							<dd style="height: 58px;">
+							<a>全部</a>
+						    <a>雅客集</a>
+							<a>施美乐</a>
+							<a>inness英尼斯</a>
+							<a>无</a>
+							<a>日光生活</a>
+							<a>棉记</a>
+							<a>livingmore</a>
+							<a>新榜样</a>
+							<a>宝优尼</a>
+							<a>竹野吾家</a>
+							<a>玺包</a>
+							<a>新榜样</a>
+							<a>新榜样</a>
+							<a>新榜样</a>
+							<a>新榜样</a>
+							<a>新榜样</a>
+							<a>新榜样</a>
+							<a>新榜样</a>
+							<a>新榜样</a>
+							<a>新榜样</a>	
+							</d>
+							<span class="">更多</span>
+						</dl>
+					</div>
+				</div>
+				<div class="filter">
+					<ul>
+						<li class="curr">综合</li>
+						<li>
+							销量
+							<i></i>
+						</li>
+						<li>
+							人气
+							<i></i>
+						</li>
+						<li>
+							价格
+							<i></i>
+						</li>
+						<li class="curr" id="on">
+							<input placeholder="￥" type="text">
+							<span>-</span>
+							<input placeholder="￥" type="text">
+							<a>确认</a>
+						</li>
+					</ul>
+				</div>
+				
+				<ul class="ac-list" id="list">
+					
+					
+				</ul>
+				<script type="text/html" id="listEle">
+				{{each data item value}}
+					<li>
+						<a class="sold">
+							<a href="xiangqing.html"><img src="/images/{{item.url}}"></a>
+							<b title="帕格尼欧式田园整体家具庆生组">{{item.title}}</b>
+							<p>
+								<i>￥59999</i>
+								￥<em>{{item.price}}</em>
+							</p>
+							<font>
+								<span></span>
+								月销3件
+							</font>
+						</a>
+					</li>
+				{{ /each}}
+				</script>
+				<div class="pag">
+					<span id="fenye">
+						<a class="curr">
+							<span class="prev">上一页</span>
+						</a>
+						
+						<a id="spnext">
+							<span class="next">下一页</span>
+						</a>
+					</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	<!--底部共有布局-->
+<ul class="payMethod">
+        <li class="l1">
+            <b>100%正品保证</b>
+            <i>质量有保障</i>
+        </li>
+        <li class="l2">
+            <b>在线支付 全场包邮</b>
+            <i>送货上门</i>
+        </li>
+        <li class="l3">
+            <b>支持银联刷卡付款</b>
+            <i>付款更安全</i>
+        </li>
+        <li class="l4">
+            <b>货到付款 开箱验货</b>
+            <i>满意才收货</i>
+        </li>
+        <li class="l5">
+            <b>7x24小时热人工服务</b>
+            <i>微笑无时无刻 4008-678-210</i>
+        </li>
+</ul>
+<div class="foot">
+        <div class="cont">
+            <div class="foot_dl">
+                <dl>
+                    <dt>
+                        <a>关于我们</a>
+                    </dt>
+                    <dd>
+                        <a>公司介绍</a>
+                    </dd>
+                    <dd>
+                        <a>招聘信息</a>
+                    </dd>
+                    <dd>
+                        <a>联系我们</a>
+                    </dd>
+                    <dd>
+                        <a>用户隐私条款</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <a>交易条款</a>
+                    </dt>
+                    <dd>
+                        <a>注册/购物流程</a>
+                    </dd>
+                    <dd>
+                        <a>退/换货</a>
+                    </dd>
+                    <dd>
+                        <a>积分说明</a>
+                    </dd>
+                    <dd>
+                        <a>发票指南</a>
+                    </dd>
+                    <dd>
+                        <a>会员制度说明</a>
+                    </dd>
+                </dl>
+            <dl>
+                    <dt>
+                        <a>配送服务</a>
+                    </dt>
+                    <dd>
+                        <a>配送区域</a>
+                    </dd>
+                    <dd>
+                        <a>配送时间</a>
+                    </dd>
+                    <dd>
+                        <a>验货与签收</a>
+                    </dd>                   
+            </dl>
+            <dl>
+                    <dt>
+                        <a>支付方式</a>
+                    </dt>
+                    <dd>
+                        <a>网上支付</a>
+                    </dd>
+                    <dd>
+                        <a>货到付款</a>
+                    </dd>                                   
+            </dl>
+            <dl>
+                    <dt>
+                        <a>合作专区</a>
+                    </dt>
+                    <dd>
+                        <a>成为供应商</a>
+                    </dd>
+                    <dd>
+                        <a>供应商系统</a>
+                    </dd>
+                    <dd>
+                        <a>合作伙伴</a>
+                    </dd>                   
+            </dl>               
+            </div>
+            
+            <div class="erweima">
+                <ul>
+                    <li>
+                        <img src="../images/ewm011.jpg" alt="家有购物微信">
+                        家有购物微信
+                    </li>
+                    <li>
+                        <img src="../images/ewm022.png" alt="家有购物APP">
+                        家有购物APP
+                    </li>
+                </ul>
+                <p>
+                    <b>4008-678-210</b>
+                    <i>客服 7x24小时 （全年无休）</i>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="cont">
+            <p>
+                友情链接：
+                <a href="http://www.sj001.com/" target="_blank">南京手机报</a>
+                <a href="http://www.e.cn/" target="_blank">竞拍</a>
+                <a href="http://www.aolaigo.com/" target="_blank">奥莱购</a>
+                <a href="http://wiki.smzdm.com/" target="_blank">商品百科</a>
+            </p>
+            <p>
+                Copyright   2008-2013  jyh.com
+                <a>家有购物集团有限公司北京分公司</a>
+                版权所有  京ICP备14011161号-5 增值电信业务经营许可证：黔B2-20120036
+            </p>
+        </div>
+    </div>
+	</body>
+</html>
